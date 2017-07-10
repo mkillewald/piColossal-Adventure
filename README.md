@@ -1,6 +1,6 @@
 # piColossal Adventure 2.0
 
-A remake of and tribute to Adventure for the Atari Video Computer System
+A pico-8 remake of and tribute to Adventure for the Atari Video Computer System
 
 Code structure, construct definitions, sprite movement, collision, and animation routines copied from and/or very heavily influenced by Dom8verse (by Haunted Tie).
 
