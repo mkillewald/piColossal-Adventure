@@ -1,7 +1,5 @@
 # piColossal-Adventure
 
-[UPDATE v2.0] Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
-
 piColossal Adventure
 version 2.0
 
@@ -11,7 +9,10 @@ Code structure, construct definitions, sprite movement, collision, and animation
 
 An evil magician has stolen the enchanted chalice and has hidden it somewhere in the Kingdom. The object of the game is to rescue the enchanted chalice and place it inside the golden castle where it belongs. This is no easy task, as the evil magician has created three dragons to hinder you in your quest for the golden chalice. There is Yorgle, the yellow dragon, who is just plain mean; there is Grundle, the green dragon, who is mean and ferocious; and there is Rhindle, the red dragon, who is the most ferocious of all. Rhindle is also the fastest dragon and is the most difficult to out maneuver.
 
+[Update v2.0] Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
+
 Skill Levels:
+
 selectable at cartridge boot or reset (see Controls)
 
 Level 1: small Kingdom, no bat, 2 dragons
@@ -19,6 +20,7 @@ Level 2: full Kingdom, bat and 3 dragons
 Level 3: full Kingdom, bat, 3 dragons and random object placement
 
 Difficulty:
+
 changeable through the in-game menu (see Controls)
 *denotes default settings
 
@@ -31,6 +33,7 @@ Dragon Fear (Atari 2600 right switch):
 (easy) dragons do not run from sword
 
 Controls:
+
 Level select screen:
 Z or UP/DOWN/LEFT/RIGHT change skill level (1, 2 or 3)
 X start game at chosen skill level
@@ -50,12 +53,19 @@ LEFT/RIGHT immediate/emergency menu exit
 This was for me a really fun game to recreate while learning how to make a game in pico-8. It took me about a month to build version 1.0 while teaching myself about OOP, collision detection, map changing and very low level AI logic.
 
 Change Log:
+
 2.0 code cleanup, token savings, changed chalice and secret room color cycle routines, changed message in secret room, added new secrets with new ending and extended storyline, added timer and statistics for new ending.
 
 1.6 added collision flicker, grab object inside wall at edge of wall fix, movement in belly of the beast fix, bridge grab-in-use fix, string->table unpacker provided by cheepicus (thanks!!!), code clean up, and token reduction
+
 1.5 add/drop sound effect correction by dw817 (thanks, dude!)
+
 1.4 in game menu created, fix to black castle maze, nmsg transparency
+
 1.3 difficulty switch init fix, blue maze fix, code cleanup
+
 1.2 exits to nowhere peek fix
+
 1.1 exits to nowhere fix
+
 1.0 first release
