@@ -1,7 +1,5 @@
-# piColossal-Adventure
-
-piColossal Adventure
-version 2.0
+# piColossal Adventure
+#### version 2.0
 
 A remake of and tribute to Adventure for the Atari Video Computer System
 
@@ -11,48 +9,48 @@ An evil magician has stolen the enchanted chalice and has hidden it somewhere in
 
 [Update v2.0] Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
 
-Skill Levels:
+### Skill Levels:
 
 selectable at cartridge boot or reset (see Controls)
 
-Level 1: small Kingdom, no bat, 2 dragons
-Level 2: full Kingdom, bat and 3 dragons
-Level 3: full Kingdom, bat, 3 dragons and random object placement
+Level 1: small Kingdom, no bat, 2 dragons  
+Level 2: full Kingdom, bat and 3 dragons  
+Level 3: full Kingdom, bat, 3 dragons and random object placement  
 
-Difficulty:
+### Difficulty:
 
-changeable through the in-game menu (see Controls)
+changeable through the in-game menu (see Controls)  
 *denotes default settings
 
-Dragon Attack (Atari 2600 left switch):
-*(hard) dragons attack instantly
-(easy) dragons hesitate before attacking
+Dragon Attack (Atari 2600 left switch):  
+*(hard) dragons attack instantly  
+(easy) dragons hesitate before attacking  
 
-Dragon Fear (Atari 2600 right switch):
-*(hard) all dragons run from sword
-(easy) dragons do not run from sword
+Dragon Fear (Atari 2600 right switch):  
+*(hard) all dragons run from sword  
+(easy) dragons do not run from sword  
 
-Controls:
+### Controls:
 
-Level select screen:
-Z or UP/DOWN/LEFT/RIGHT change skill level (1, 2 or 3)
-X start game at chosen skill level
+Level select screen:  
+Z or UP/DOWN/LEFT/RIGHT change skill level (1, 2 or 3)  
+X start game at chosen skill level  
 
-in game:
-UP/DOWN/LEFT/RIGHT move player
-Z drop item
-Z and X pressed together bring up an in game menu to change difficulty and reincarnate
+in game:  
+UP/DOWN/LEFT/RIGHT move player  
+Z drop item  
+Z and X pressed together bring up an in game menu to change difficulty and reincarnate  
 
-in game menu*:
-UP/DOWN to change active selection
-Z to select or toggle item
-LEFT/RIGHT immediate/emergency menu exit
+in game menu*:  
+UP/DOWN to change active selection  
+Z to select or toggle item  
+LEFT/RIGHT immediate/emergency menu exit  
 
 *A word of caution with the in game menu is that the Kingdom is always operating in real time. In other words, the dragons and bat do not pause while the menu is open (or after you have been eaten for that matter).
 
 This was for me a really fun game to recreate while learning how to make a game in pico-8. It took me about a month to build version 1.0 while teaching myself about OOP, collision detection, map changing and very low level AI logic.
 
-Change Log:
+### Change Log:
 
 2.0 code cleanup, token savings, changed chalice and secret room color cycle routines, changed message in secret room, added new secrets with new ending and extended storyline, added timer and statistics for new ending.
 
