@@ -1,5 +1,4 @@
-# piColossal Adventure
-#### version 2.0
+# piColossal Adventure 2.0
 
 A remake of and tribute to Adventure for the Atari Video Computer System
 
@@ -7,7 +6,7 @@ Code structure, construct definitions, sprite movement, collision, and animation
 
 An evil magician has stolen the enchanted chalice and has hidden it somewhere in the Kingdom. The object of the game is to rescue the enchanted chalice and place it inside the golden castle where it belongs. This is no easy task, as the evil magician has created three dragons to hinder you in your quest for the golden chalice. There is Yorgle, the yellow dragon, who is just plain mean; there is Grundle, the green dragon, who is mean and ferocious; and there is Rhindle, the red dragon, who is the most ferocious of all. Rhindle is also the fastest dragon and is the most difficult to out maneuver.
 
-[Update v2.0] Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
+[<b>Update v2.0</b>] Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
 
 ### Skill Levels:
 
