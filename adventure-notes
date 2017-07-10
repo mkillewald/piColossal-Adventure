@@ -1,0 +1,112 @@
+--to do:
+-- fix boss battle anims
+-- fix locking gate player collisions
+-- fix bridge wraparound / exits
+-- fix dead dragon sprite blocking path
+--  -two or more items in room should cause sprite flicker allowing passage through sprite
+--  -currently if player just has item grabbed they can pass through dead dragon
+-- fix bat
+--  - fix bat/magnet interaction (is this even broke?)
+--  - fix bat getting frozen on player grab (havent been able to recreate this)
+-- add charm of the original
+--  - blinking sprites
+--  - skinny barrier color change
+--  - four or more objects (including gates) in same room makes good magic ineffective
+
+transform steps
+0-30 del grabobj, shake chalice
+30-60 shake chalice/holy chalice
+60-90 shake sword
+>90 sword add grabobj
+
+0-30 del grabobj, shake sword
+30-60 shake chalice/holy chalice
+60-90 shake chalice
+>90 chalice add grabobj
+
+ykey.t states
+nil at init/default
+1 after bat drops off ykey in lair, ykey begins shaking
+2 after em spawns (ykey blanked out)
+3 all dragons now scared of ykey
+
+bat.t states
+nil at init/default
+1 after player enters lair, bat seeks ykey only
+2 after bat has equipped ykey
+3 after em spawned, bat will now seek chalice on pl death
+4 after bat has equipped chalice
+5 (not used)
+6 after chalice dropped in garden
+	if player reincarnates while bat.t=6, bat.t is set to 3
+7 after em death anim completed, orig want list restored
+nil final state after bat grabs chalice at end after em death
+* bat can only be grabbed if bat.t=nil
+
+chalice.t states
+nil at init/default
+1 after chalice enters red castle (if em not yet spawned)
+2 after chalice transformed into sword
+3 at evil magicians death
+nil after transformed back into chalice
+
+em.t states
+nil at init/defualt
+1 30 frames after being spwaned, starts random jumping
+2 after taking set amount of shots (5)
+	em shakes, hands up, placed at center
+3 25 frames after state 2, death anim starts
+4 after death anim complete, ykey is reshown
+
+secrets
+0 start of game
+1 after enter orig secret room
+2 after bring chalice into secret room
+3 after transform chalice
+4 after finding em lair
+
+--original move routines
+--bat steal
+  	if pl.eqp!=this then
+			if i.pos.x<this.pos.x then
+ 				this.dir.x=-1
+			elseif i.pos.x>this.pos.x then
+				this.dir.x=1
+			else
+				this.dir.x=0
+			end
+			if i.pos.y<this.pos.y then
+				this.dir.y=-1
+			elseif i.pos.y>this.pos.y then
+				this.dir.y=1
+			else
+				this.dir.y=0
+			end
+			
+--dragon flee 
+		if this.pos.x>this.fear[this.fi].pos.x then
+			this.dir.x=1
+		elseif this.pos.x<this.fear[this.fi].pos.x then
+			this.dir.x=-1
+		else
+			this.dir.x=0
+		end
+		if this.pos.y>this.fear[this.fi].pos.y then
+			this.dir.y=1
+		elseif this.pos.y<this.fear[this.fi].pos.y then
+			this.dir.y=-1
+		else
+			this.dir.y=0
+		end
+
+--dragon gaurd
+		if this.pos.x>this.want[this.wi].pos.x then
+			this.dir.x=-1
+		elseif this.pos.x<this.want[this.wi].pos.x then
+			this.dir.x=1
+		end
+		if this.pos.y>this.want[this.wi].pos.y then
+			this.dir.y=-1
+		elseif this.pos.y<this.want[this.wi].pos.y then
+			this.dir.y=1
+		end
