@@ -19,29 +19,29 @@ Level 3: full Kingdom, bat, 3 dragons and random object placement
 ### Difficulty:
 
 changeable through the in-game menu (see Controls)  
-*denotes default settings
+\*denotes default settings
 
-#### Dragon Attack (Atari 2600 left switch):  
-*(hard) dragons attack instantly  
+**Dragon Attack (Atari 2600 left switch):**  
+\*(hard) dragons attack instantly  
 (easy) dragons hesitate before attacking  
 
-#### Dragon Fear (Atari 2600 right switch):  
-*(hard) all dragons run from sword  
+**Dragon Fear (Atari 2600 right switch):**  
+\*(hard) all dragons run from sword  
 (easy) dragons do not run from sword  
 
 ### Controls:
 
-#### Level select screen:  
+**Level select screen:**  
 X change skill level (rotates through 1, 2 or 3 with each press)  
 Z start game at chosen skill level  
 
-#### in game:  
+**in game:**  
 UP/DOWN/LEFT/RIGHT move player  
 Z drop item  
 X special use discoverable inside evil magician's castle  
 Z and X pressed together bring up an in game menu to change difficulty and reincarnate  
 
-#### in game menu:  
+**in game menu:**  
 UP/DOWN to change active selection  
 Z to select or toggle item  
 LEFT/RIGHT immediate/emergency menu exit  
