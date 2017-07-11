@@ -32,20 +32,21 @@ Dragon Fear (Atari 2600 right switch):
 ### Controls:
 
 Level select screen:  
-Z or UP/DOWN/LEFT/RIGHT change skill level (1, 2 or 3)  
-X start game at chosen skill level  
+X change skill level (rotates through 1, 2 or 3 with each press)  
+Z start game at chosen skill level  
 
 in game:  
 UP/DOWN/LEFT/RIGHT move player  
-Z drop item  
+Z drop item
+X special use discoverable in evil magicians castle
 Z and X pressed together bring up an in game menu to change difficulty and reincarnate  
 
-in game menu*:  
+in game menu:  
 UP/DOWN to change active selection  
 Z to select or toggle item  
 LEFT/RIGHT immediate/emergency menu exit  
 
-*A word of caution with the in game menu is that the Kingdom is always operating in real time. In other words, the dragons and bat do not pause while the menu is open (or after you have been eaten for that matter).
+A word of caution with the in game menu is that the Kingdom is always operating in real time. In other words, the dragons and bat do not pause while the menu is open (or after you have been eaten for that matter).
 
 This was for me a really fun game to recreate while learning how to make a game in pico-8. It took me about a month to build version 1.0 while teaching myself about OOP, collision detection, map changing and very low level AI logic.
 
