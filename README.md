@@ -37,7 +37,7 @@ Z start game at chosen skill level
 
 in game:  
 UP/DOWN/LEFT/RIGHT move player  
-Z drop item
+Z drop item  
 X special use discoverable in evil magician's castle  
 Z and X pressed together bring up an in game menu to change difficulty and reincarnate  
 
