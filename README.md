@@ -1,12 +1,16 @@
 # piColossal Adventure
 
+<b>[Spoiler Alert:</b> Video link below reveals secret ending!<b>]</b>   
+[![Alt text](https://img.youtube.com/vi/aR71roPKuy0/0.jpg)](https://www.youtube.com/watch?v=aR71roPKuy0)   
+Video Credit: YouTube user "David Wood Super Guy"
+
 A pico-8 remake of and tribute to Adventure for the Atari Video Computer System
 
 Code structure, construct definitions, sprite movement, collision, and animation routines copied from and/or very heavily influenced by Dom8verse (by Haunted Tie).
 
 An evil magician has stolen the enchanted chalice and has hidden it somewhere in the Kingdom. The object of the game is to rescue the enchanted chalice and place it inside the golden castle where it belongs. This is no easy task, as the evil magician has created three dragons to hinder you in your quest for the golden chalice. There is Yorgle, the yellow dragon, who is just plain mean; there is Grundle, the green dragon, who is mean and ferocious; and there is Rhindle, the red dragon, who is the most ferocious of all. Rhindle is also the fastest dragon and is the most difficult to out maneuver.
 
-[<b>Update v2.0</b>] Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
+<b>[Update v2.0]</b> Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
 
 ### Skill Levels:
 
