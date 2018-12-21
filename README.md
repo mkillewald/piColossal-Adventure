@@ -2,7 +2,7 @@
 
 <b>[Spoiler Alert:</b> Video link below reveals secret ending!<b>]</b>   
 [![Alt text](https://img.youtube.com/vi/aR71roPKuy0/0.jpg)](https://www.youtube.com/watch?v=aR71roPKuy0)   
-Video Credit: YouTube user "David Wood Super Guy"
+###### Video and Muisc Credit: YouTube user "David Wood Super Guy"
 
 A pico-8 remake of and tribute to Adventure for the Atari Video Computer System
 
