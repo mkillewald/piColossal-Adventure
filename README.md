@@ -13,6 +13,8 @@ An evil magician has stolen the enchanted chalice and has hidden it somewhere in
 
 <b>[Update v2.0]</b> Have you ever wondered why Yorgle is afraid of the yellow key, or who exactly is the Evil Magician? I mean whats his deal, has anyone ever even seen him before? Now you can finally go face to face with him and find out! There is one catch,.. you'll first have to locate him and his lair hidden deep within the Kingdom. Are you up to the challenge?
 
+Play piColossal Adventure in your web browser: https://www.lexaloffle.com/bbs/?tid=27901
+
 ### Skill Levels:
 
 selectable at cartridge boot or reset (see Controls)
