@@ -1,9 +1,9 @@
-# piColossal Adventure
-
 <b>[Spoiler Alert!!]</b> The YouTube video linked to the below image reveals   
 the original Atari easter egg and the added Pico-8 secret ending!   
 [![Alt text](https://img.youtube.com/vi/aR71roPKuy0/0.jpg)](https://www.youtube.com/watch?v=aR71roPKuy0)   
 Video and Muisc Credit: YouTube user "David Wood Super Guy"
+
+# piColossal Adventure
 
 A pico-8 remake of and tribute to Adventure for the Atari Video Computer System
 
