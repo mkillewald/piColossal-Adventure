@@ -1,4 +1,4 @@
-<b>[Spoiler Alert!!]</b> The YouTube video linked below reveals the 
+<b>[Spoiler Alert!!]</b> The YouTube video linked below reveals the    
 original Atari easter egg and the added Pico-8 secret ending!   
 [![Alt text](https://img.youtube.com/vi/aR71roPKuy0/0.jpg)](https://www.youtube.com/watch?v=aR71roPKuy0)   
 Video: https://www.youtube.com/watch?v=aR71roPKuy0    
